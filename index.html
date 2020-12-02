@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Google Search</title>
+    <style>
+        body {
+            font-size: 14px;
+        }
+
+        .center {
+            position: absolute;
+            left: 40%;
+            top: 25%;
+            width: 200px;
+        }
+        .searchbar {
+            position:absolute;
+            left:29%;
+            top:50%;
+            width: 0px;
+            background-color:white;
+            color:white;
+        }
+        .searchbar input{
+            width: 500px;
+            height: 30px;
+            border-radius: 7px;
+        }
+        
+        .btn1 {
+            position: absolute;
+            left: 620px;
+            top: 320px;
+        }
+        .btn2 {
+            position: absolute;
+            left: 450px;
+            top: 320px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        li {
+            display: inline;
+            float: right;
+        }
+        li a {
+            display: block;
+            padding: 8px;
+            background-color: white;
+            color: black;
+        }
+        .footerleft {
+            list-style-type: none;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .foot {
+            padding-left: 20px;
+            
+        }
+        .footer-bar {
+            background-color: #f2f2f2;
+            position: fixed;
+            bottom: 0px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .footerright {
+            text-align: right;
+            list-style-type: none;
+            margin: 0;
+            padding-left: 620px;
+        }
+
+
+        
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+            <li><a href="images.google.com">Images</a></li>
+            <li ><a href="gmail.com">Gmail</a></li>
+            
+
+        </ul>
+        </nav>
+    </header>
+
+    <div  class="center">
+    <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="googlelogo">
+    </div>
+<div class="searchbar">
+    <form> 
+        <input type="text" class="searchbar">
+    </form>
+</div>
+<div class="btn1">
+    <button>I'm Feeling Lucky</button>
+</div>
+<div class="btn2">
+    <button>Google Search</button>
+</div>
+    <footer class="footer-bar">
+    <ul class="footerleft">
+        <li class="foot"><a href="#">Advertising</a></li>
+        <li class="foot"><a href="#">Business</a></li>
+        <li class="foot"><a href="#">About</a></li>
+        <li class="foot"><a href="#">How Search Works</a></li>
+    </ul>
+    <ul class="footerright">
+        <li class="damn"><a href="#">Privacy</a></li>
+        <li class="damn"><a href="#">Settings</a></li>
+        <li class="damn"><a href="#">Terms</a></li>
+    </ul>
+    </footer>
+</body>
+</html>
+
