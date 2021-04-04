@@ -1,0 +1,196 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  font-size: 14px;
+}
+
+.center {
+  position: absolute;
+  left: 40%;
+  top: 25%;
+  width: 200px;
+}
+.searchbar {
+  position: absolute;
+  left: 29%;
+  top: 50%;
+  width: 0px;
+  background-color: white;
+  color: white;
+}
+.searchbar input {
+  width: 500px;
+  height: 30px;
+  border-radius: 7px;
+}
+
+.btn1 {
+  position: absolute;
+  left: 620px;
+  top: 320px;
+}
+.btn2 {
+  position: absolute;
+  left: 450px;
+  top: 320px;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+li {
+  display: inline;
+  float: right;
+}
+li a {
+  display: block;
+  padding: 8px;
+  background-color: white;
+  color: black;
+}
+.footerleft {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.foot {
+  padding-left: 20px;
+}
+.footer-bar {
+  background-color: #f2f2f2;
+  position: fixed;
+  bottom: 0px;
+  display: flex;
+  justify-content: space-between;
+}
+.footerright {
+  text-align: right;
+  list-style-type: none;
+  margin: 0;
+  padding-left: 620px;
+}
